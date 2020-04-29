@@ -75,10 +75,10 @@ ul, ol{
 .bg{
     width: 1887px;
     height: 100%;
-    background: url(/img/Dutchboosters-lol-boosting-bg.jpg);
     position: relative;
     top: 0px;
     left: 0px;
+    background-image: url(/img/Dutchboosters-lol-boosting-bg.jpg);
 }
 
 .new_photo a{
