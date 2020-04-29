@@ -1,0 +1,326 @@
+.head{
+    height: 55px;
+    width: 1500px;
+    background-color: rgb(51, 51, 51);
+    margin: auto;
+}
+.botton{
+    display:flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    
+  }
+.botton_2{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.botton_3{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.botton_garena {
+    width: 25px;
+    height: 50px;
+    padding-top: 10px;
+}
+.login {
+    width: 43px;
+    height: 10px;
+    color: #ffffff;
+    padding: 5px 8px 9px 8px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none;
+
+  }
+.Customer_Service {
+    width: 80px;
+    height: 10px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding: 5px 8px 9px 8px;
+    margin: 0px -10px;
+
+}
+
+.country {
+    width: 43px;
+    height: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    padding: 5px 8px 9px 8px;
+    outline: rgb(201, 201, 201);
+    margin: 7px -10px;
+
+}
+.body{
+    height: 800px;
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1818;
+    margin: auto;
+}
+
+.img_carena_store{
+    margin: 0 300px;
+}
+.store_game{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10 300px;
+    color: rgb(201, 201, 201);
+}
+.game{
+    display: flex;
+    flex-direction: row;
+    margin: 0 300px;
+}
+.game_1_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_1_box:link{
+    background-color: #1b1818;
+}
+.game_1_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_2_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_2_box:link{
+    background-color: #1b1818;
+}
+.game_2_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_3_box:link{
+    background-color: #1b1818;
+}
+.game_3_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.game_3_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_4_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_4_box:link{
+    background-color: #1b1818;
+}
+.game_4_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_5_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_5_box:link{
+    background-color: #1b1818;
+}
+.game_5_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_6_box:link{
+    background-color: #1b1818;
+}
+.game_6_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.game_6_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_7_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_7_box:link{
+    background-color: #1b1818;
+}
+.game_7_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_7{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_8_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_8_box:link{
+    background-color: #1b1818;
+}
+.game_8_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+.game_8{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.game_9_box:link{
+    background-color: #1b1818;
+}
+.game_9_box:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.game_9_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 297;
+    height: 200;
+    outline: rgb(201, 201, 201);
+    outline-style: auto;
+}
+.game_9{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 60px;
+    background-color: #110a0d;
+    margin: auto;
+}
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 11px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+
+}
