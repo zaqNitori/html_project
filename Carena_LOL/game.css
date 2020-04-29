@@ -14,7 +14,7 @@ ul, ol{
 }
 
 .nav ul li a{
-    font-size: 16px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color:floralwhite;
     text-decoration: none;
@@ -174,4 +174,8 @@ ul, ol{
 .rock_photo{
     padding-top: 460px;
     padding-left: 50px;
+}
+
+.home_flex{
+    background-color: teal;
 }
