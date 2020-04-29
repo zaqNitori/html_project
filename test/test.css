@@ -110,6 +110,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_2_box{
     display: flex;
@@ -133,6 +136,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_3_box:link{
     background-color: #1b1818;
@@ -157,6 +163,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_4_box{
     display: flex;
@@ -180,6 +189,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_5_box{
     display: flex;
@@ -203,6 +215,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_6_box:link{
     background-color: #1b1818;
@@ -227,6 +242,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_7_box{
     display: flex;
@@ -250,6 +268,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_8_box{
     display: flex;
@@ -273,6 +294,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .game_9_box:link{
     background-color: #1b1818;
@@ -297,6 +321,9 @@
     font-family: Arial;
     font-size: 20px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .copyright{
     display: flex;
@@ -323,8 +350,4 @@
     text-align: left;
     color: #edf2c5;
 
-}
-
-html {
-    background-color: #1b1818;
 }
