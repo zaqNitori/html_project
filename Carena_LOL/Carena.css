@@ -239,10 +239,10 @@ ul.drop-down-menu2 a:hover{
 .gotoGame{
 	text-decoration: none;
 	padding: 5px 5px 5px 10px;
-	border:#B62D2D 1px solid;
+	border:white 1px solid;
 	background-color:#222;
 	font-size: 25px;
-	color: red;
+	color: #00BFFF;
 	font-size: lighter;
 	box-sizing: border-box;
 }
