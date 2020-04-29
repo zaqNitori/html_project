@@ -1,0 +1,617 @@
+body,div,
+dl,dt,
+dd,ul,
+ol,li,
+h1,h2,
+h3,h4,
+h5,h6,
+pre,form,fieldset,
+input,select,
+textarea,
+p,blockquote,
+th,td {
+    padding: 0;
+    margin: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+caption,
+th {
+    text-align: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-size: 100%
+}
+
+
+a {
+    text-decoration: none
+}
+
+html {
+    min-width: 1000px
+}
+
+body {
+    font: 13px/1.6 arial, PMingLiU, \65B0\7D30\660E\9AD4;
+    background: #2e2e2e
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1000px
+}
+
+.hd {
+    height: 350px;
+    border-top: 1px solid #B5B7B6;
+    background: url(../Img/bg.png) 50% 100% no-repeat
+}
+
+.hd-home {
+    cursor: pointer;
+    height: 261px
+}
+
+.hd-panel {
+    height: 64px;
+    padding: 10px 0;
+    margin: 0 6px 0 0;
+    background: #00BFFF;
+    zoom: 1
+}
+
+.hd-panel:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.hd-panel-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0
+}
+
+.hd-nav {
+    border-right: 1px solid #fff;
+    float: left;
+    padding: 0 9px 0 0;
+    zoom: 1
+}
+
+.hd-nav:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.hd-nav__link {
+    float: left;
+    margin: 0 15px;
+    color: #fff;
+    font: 16px/45px arial, 'Microsoft JhengHei';
+    padding: 0 0 0 32px;
+    background-repeat: no-repeat;
+    background-position: 0 50%
+}
+
+.hd-nav__link:hover {
+    color: #ffd1ce
+}
+
+.hd-nav__link-faq {
+    background-image: url(../Img/icostar.png)
+}
+
+.hd-nav__link-record {
+    background-image: url(../Img/icoclock.png)
+}
+
+.hd-nav__link-minfo {
+    background-image: url(../Img/icopeople.png)
+}
+
+.hd-nav__link-account {
+    background-image: url(../Img/icoaccount.png)
+}
+
+.hd-search {
+    *zoom: 1;
+    float: left;
+    margin: 0 0 0 30px
+}
+
+.hd-search:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.hd-search__title {
+    float: left;
+    color: #fff;
+    font: 16px/45px arial, 'Microsoft JhengHei';
+    margin: 0 15px 0 0
+}
+
+.hd-search__form {
+    float: left;
+    *zoom: 1;
+    position: relative;
+    margin: 6px 0 0
+}
+
+.hd-search__form:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.hd-search__label {
+    position: absolute;
+    font: 15px/32px arial, 'Microsoft JhengHei';
+    left: 13px;
+    top: 8px;
+    visibility: hidden;
+    line-height: 1;
+    vertical-align: top;
+    color: #bca09f;
+    cursor: text
+}
+
+.hd-search__label--active {
+    visibility: visible
+}
+
+.hd-search__input {
+    padding: 0 13px;
+    width: 132px;
+    height: 31px;
+    font: 15px/30px arial, 'Microsoft JhengHei';
+    border: 0;
+    display: block;
+    float: left;
+    border: 1px solid #000
+}
+
+.hd-search__submit {
+    cursor: pointer;
+    float: left;
+    display: block;
+    width: 38px;
+    border: 0;
+    height: 31px;
+    background: url(../Img/searchbtn.png) #eb5a58
+}
+
+.hd-login {
+    float: left;
+    color: #fff;
+    font: 16px/45px arial, 'Microsoft JhengHei';
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    text-align: center;
+    width: 136px;
+    margin: 0 17px
+}
+
+a.hd-loginBt {
+    width: 136px;
+    height: 31px;
+    display: block;
+    line-height: 31px;
+    color: #fff;
+    background: #272222;
+    border: 1px solid #fff;
+    margin: 5px 0
+}
+
+a.hd-loginBt:hover {
+    color: #eb5a58;
+    background: #fff
+}
+
+
+
+.hd-loginAfter a:hover {
+    color: #ffd1ce
+}
+
+.main-layout1 {
+    width: 1000px;
+    margin: 0 auto;
+    *zoom: 1
+}
+
+.main-layout1:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.main-layout1-wrap {
+    padding: 45px 0 35px;
+    border-bottom: 1px solid #373737
+}
+
+.main-layout1-l {
+    float: left;
+    width: 724px;
+    margin: 0 46px 0 0
+}
+
+.main-layout1-r {
+    float: left;
+    width: 215px
+}
+
+.main-gamesup {
+    margin: 0 0 65px;
+    *zoom: 1;
+    overflow: hidden
+}
+
+.main-gamesup__title {
+    width: 120px;
+    height: 36px;
+    background: url(../Img/gsup-title.png);
+    margin: 0 0 10px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.main-gamesup__list {
+    *zoom: 1;
+    *float: left
+}
+
+.main-gamesup__list:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.main-gamesup__list li {
+    float: left;
+    width: 167px;
+    margin: 0 12px 11px 0;
+    background: #272222;
+    border: 1px solid #e73c42
+}
+
+.main-gamesup__list li:hover {
+    background: #393838
+}
+
+.main-gamesup__list a {
+    display: block;
+    height: 116px
+}
+
+.main-gamesup__list-aoa {
+    background: url(../Img/icon/icon-aoa.png)
+}
+
+.main-gamesup__list-lol {
+    background: url(../Img/icon/icon-lol.png)
+}
+
+.main-gamesup__list-roe {
+    background: url(../Img/icon/icon-roe.png)
+}
+
+.main-gamesup__list-poe {
+    background: url(../Img/icon/icon-poe.png)
+}
+
+.main-serentry {
+    *zoom: 1
+}
+
+.main-serentry__title {
+    width: 120px;
+    height: 36px;
+    background: url(../Img/service-title.png);
+    margin: 0 0 10px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.main-serentry__list {
+    *zoom: 1;
+    *float: left
+}
+
+.main-serentry__list:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.main-serentry__list li {
+    float: left;
+    width: 167px;
+    margin: 0 12px 11px 0;
+    background: #272222;
+    border: 1px solid #e73c42
+}
+
+.main-serentry__list li:hover {
+    background: #393838
+}
+
+.main-serentry__list a {
+    display: block;
+    height: 113px
+}
+
+.main-serentry__list-acc {
+    background: url(../Img/member.png)
+}
+
+.main-serentry__list-topup {
+    background: url(../Img/sertopup.png)
+}
+
+
+
+
+.main-serentry__list-esports {
+    background: url(../Img/seresports.png)
+}
+
+.main-serentry__list-ban {
+    background: url(../Img/ban.png)
+}
+
+.main-serentry__list-warning {
+    background: url(../Img/warning.png)
+}
+
+
+
+.main-sertime {
+    padding: 15px 0 10px;
+    border-bottom: 1px solid #373737;
+    margin: 0 0 10px
+}
+
+.main-sertime__title {
+    font: 20px/1.6 arial, 'Microsoft JhengHei';
+    color: #fff;
+    display: inline-block;
+}
+
+.main-sertime__title {
+    font: 20px/1.6 arial, 'Microsoft JhengHei';
+    color: #fff;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.main-sertime__content {
+    color: #afafaf;
+    font-size: 20px;
+    /*letter-spacing:1px*/
+}
+
+.main-sertime__content a {
+    font-size: 13px;
+    color: #b87266;
+    letter-spacing: 2px
+}
+
+.main-sertime__content a:hover {
+    color: #7298d6
+}
+
+.main-serwarn {
+    padding: 0 0 10px;
+    border-bottom: 1px solid #373737;
+    margin: 0 0 10px
+}
+
+.main-serwarn__btn {
+    width: 207px;
+    margin: 0 auto
+}
+
+.main-serwarn__btn a {
+    display: block;
+    height: 48px;
+    background: url(../Img/warnbtn-ov.png);
+    color: #fb4349;
+    font: 22px/50px arial, 'Microsoft JhengHei';
+    padding: 0 0 0 49px
+}
+
+.main-serwarn__btn a:hover {
+    color: #fff;
+    background: url(../Img/warnbtn.png);
+    text-decoration: none
+}
+
+.main-ensure {
+    padding: 0 0 10px;
+    border-bottom: 1px solid #373737;
+    margin: 0 0 20px
+}
+
+.main-ensure__btn {
+    width: 207px;
+    margin: 0 auto
+}
+
+.main-ensure__btn a {
+    display: block;
+    height: 48px;
+    background: url(../Img/ensurebtn-ov.png);
+    color: #fb4349;
+    font: 22px/50px arial, 'Microsoft JhengHei';
+    padding: 0 0 0 49px;
+    text-decoration: none
+}
+
+.main-ensure__btn a:hover {
+    background: url(../Img/ensurebtn.png);
+    color: #fff;
+    text-decoration: none
+}
+
+
+.main-sercommon {
+    padding: 0 0 10px;
+    border-bottom: 1px solid #373737;
+    margin: 0 0 10px
+}
+
+.main-sercommon__title {
+    font: 20px/1.6 arial, 'Microsoft JhengHei';
+    color: #fff
+}
+
+.main-sercommon__list a {
+    background: url(../Img/itemdot.png) 7px 50% no-repeat;
+    padding: 0 0 0 22px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #afafaf;
+    display: block
+}
+
+.main-sercommon__list a:hover {
+    color: #7298d6
+}
+
+a.main-sercommon__list--hot {
+    background: url(../Img/itemfire.png) 5px 50% no-repeat;
+    color: #fb4349
+}
+
+a.main-sercommon__list--hot:hover {
+    color: #7298d6
+}
+
+.main-sernews {
+    margin: 0 0 10px
+}
+
+.main-sernews__title {
+    font: 20px/1.6 arial, 'Microsoft JhengHei';
+    margin: 0 0 5px;
+    color: #fff
+}
+
+.main-sernews__list li {
+    margin: 0 0 15px
+}
+
+.main-sernews__list a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #afafaf;
+    display: block
+}
+
+.main-sernews__list a:hover {
+    color: #7298d6
+}
+
+a.main-sernews__list-more {
+    font-size: 12px;
+    color: #fb4349;
+    border-bottom: 1px solid #fb4349;
+    padding: 0 0 1px;
+    display: inline
+}
+
+a.main-sernews__list-more:hover {
+    color: #7298d6;
+    border-bottom: 1px solid #7298d6
+}
+
+.main-layout2 {
+    width: 1000px;
+    margin: 0 auto;
+    *zoom: 1
+}
+
+.main-layout2:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.main-layout2-wrap {
+    padding: 40px 0;
+    border-bottom: 1px solid #373737
+}
+
+.main-pqueries__title {
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url(https://service.garena.tw/img/hotqes-title.png);
+    width: 182px;
+    height: 36px;
+    margin: 0 0 13px
+}
+
+.main-pqueries__content {
+    *zoom: 1
+}
+
+.main-pqueries__content:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.main-pqueries__list {
+    width: 288px;
+    background: #373737;
+    float: left;
+    padding: 20px;
+    margin: 0 5px 0 0
+}
+
+.main-pqueries__list-title {
+    font: 17px/1.6 arial, 'Microsoft JhengHei';
+    color: #fb4349;
+    margin: 0 0 5px
+}
+
+.main-pqueries__list-content a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    background: url(../Img/itemdot.png) 7px 50% no-repeat;
+    padding: 0 0 0 22px;
+    color: #afafaf;
+    font: 15px/1.6 arial, 'Microsoft JhengHei';
+    letter-spacing: 1px
+}
+
+.main-pqueries__list-content a:hover {
+    color: #7298d6
+}
