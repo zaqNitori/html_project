@@ -36,7 +36,7 @@ ul, ol{
 .nav ul li .outmenu{
     padding: 10px;
     position: absolute;
-    background-color: rgba(80, 255, 226, 0.301);
+    background-color:#1b1818;
     height: 300px;
     width: 100px;
     display: none;
@@ -78,7 +78,7 @@ ul, ol{
     position: relative;
     top: 0px;
     left: 0px;
-    background-image: url(/img/Dutchboosters-lol-boosting-bg.jpg);
+    background-color: rgb(22, 22, 22);
 }
 
 .new_photo a{
