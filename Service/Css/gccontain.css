@@ -49,11 +49,6 @@ body {
     margin-left: -80px!important;
 }
 
-.menu .menu-logo {
-    display: inline-block;
-    float: left;
-}
-
 .menu .menu-logo > img {
     height: 44px;
     margin-top: 5px;
@@ -61,25 +56,6 @@ body {
     width: auto;
 }
 
-.menu-mobile {
-    display: none;
-    padding: 6px 10px 0px 5px;
-    z-index: 30;
-    position: relative;
-}
-
-.menu-mobile > a > img {
-    height: 44px;
-    width: auto;
-}
-
-.menu .menu-mobile .burgericon {
-    padding: 0px 0 0 0;
-    margin-top: 3px;
-    float: right;
-    width: 35px;
-    height: 35px;
-}
 
 .menu > ul {
     margin: 0;
@@ -90,16 +66,6 @@ body {
     box-sizing: border-box;
     float: right;
     z-index: 30;
-}
-
-.menu > ul:before,
-.menu > ul:after {
-    content: "";
-    display: table;
-}
-
-.menu > ul:after {
-    clear: both;
 }
 
 .menu > ul > li {
@@ -191,15 +157,6 @@ body {
     font-size: 16px;
 }
 
-.menu > ul > li > ul > li > ul > li a {
-    border: 0;
-    text-align: left;
-    padding: 0.92em 1em 0.92em 2.5em;
-}
-
-.menu > ul > li > ul > li > ul > li a:hover {
-    background-color: #242424;
-}
 
 .menu > ul > li > ul.normal-sub {
     width: 220px;
@@ -218,10 +175,6 @@ body {
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-}
-
-.menu > ul > li > ul.normal-sub > li:last-child {
-    border-bottom: 0px solid #a91f1f;
 }
 
 .menu > ul > li:last-child > ul.normal-sub > li a {
@@ -299,9 +252,6 @@ body {
     .menu .menu-logo {
         display: none;
     }
-    .menu .menu-mobile {
-        display: block;
-    }
     .sbmleft > ul {
         margin-left: 0!important;
     }
@@ -354,9 +304,6 @@ body {
         width: 100%;
         background: rgb(0, 0, 0);
     }
-    .menu > ul > li > ul > li:first-child {
-        margin: 0;
-    }
     .menu > ul > li > ul > li > ul {
         position: relative;
     }
@@ -366,10 +313,7 @@ body {
     .menu > ul .subarrow span {
         display: none;
     }
-    .menu > ul > li > ul > .second-sub {
-        background-color: rgb(15, 15, 15);
-        min-height: inherit;
-    }
+
     .menu > ul > li > ul > li > a {
         border-bottom: 1px solid #3a3a3a;
         border-top: 1px solid #3a3a3a;
@@ -378,11 +322,6 @@ body {
     .menu > ul > li > ul > li a {
         width: auto;
         margin-left: 0px;
-    }
-    .menu > ul > li:last-child > ul.normal-sub > li a {
-        text-align: center;
-        padding: 0.75em 2.7em;
-        line-height: 32px;
     }
     .menu > ul > li > ul > li > ul > li a {
         text-align: center;
