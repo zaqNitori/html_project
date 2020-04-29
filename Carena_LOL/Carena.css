@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+body{
+	background-color: #1b1b1b;
+	box-sizing: border-box;
+}
+
+.bg{
+	width: 100%;
+	margin-left: 0px;
+	z-index: -1;
+}
+
+.head {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin:0;
+	height: 60px;
+	--background-color: #fff;
+	background-color: #1b1b1b;
+	max-width:100%;
+	box-sizing: border-box;
+	display: flex;
+	
+}
+
+.foot{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	--background-color: #fff;
+	background-color: #1b1b1b;
+	max-width: 100%;
+	height: 60px;
+	box-sizing: border-box;
+	display: flex;
+}
+/*header interface*/
+.logo{
+	margin-left: 100%;
+	height: 60px;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+/*第一層ul*/
+ul.drop-down-menu {
+	border: #ccc 0px solid;
+	font-size: 14px;
+	margin-left:45%;
+}
+
+ul.drop-down-menu li{
+	float:left;
+	position: relative;
+	margin-top: 20px;
+}
+
+ul.drop-down-menu li:hover > ul {
+	display:block;		/*顯示次選單*/
+}
+
+ul.drop-down-menu > li:last-child{
+	clear:left;
+	padding: 0;
+}
+/*第一層ul*/
+
+/*第二層ul  (平台)*/
+/*所有第二層內的ul皆會共用這裡的css*/
+ul.drop-down-menu ul{
+	position: absolute;
+	z-index: 99;
+	left: 0px;
+	top: 40px;
+	width: 150%;
+	display: none;		/*隱藏次選單*/
+}
+
+ul.drop-down-menu a{
+	text-decoration: none;
+	color: #ccc;
+	padding: 20px 25px;
+	background-color: #262626;
+}
+
+ul.drop-down-menu ul > li{
+	margin-bottom:18px;
+}
+
+ul.drop-down-menu ul > li > a {
+	padding: 20px;
+	background-color: #151515;
+}
+
+ul.drop-down-menu ul > li > a:hover {
+	background-color: #262626;
+}
+
+ul.drop-down-menu a:hover {		/*滑鼠滑入按鈕變色*/
+	background-color: #151515;
+}
+
+ul.drop-down-menu li:hover > a{ /*滑鼠進入次按鈕保持主按鈕變色*/
+	background-color: #151515;
+}
+/*所有第二層內的ul皆會共用這裡的css*/
+/*第二層 (平台)*/
+
+/*第二層 (遊戲)*/
+/*ul線上遊戲*/
+ul.drop-down-menu ul.desktop-menu-drop {
+	--display: block;
+	background-color: #1b1b1b;
+	width: 101%;
+	border: #444 1px solid;
+}
+
+ul.drop-down-menu ul.desktop-menu-drop > p{
+	border: #444 1px solid;
+	padding: 20px 5px 20px 10px;
+	margin: 0;
+	width: 100%;
+	color: #fff;
+	background-color: #1b1b1b;
+	box-sizing: border-box;
+}
+
+ul.drop-down-menu ul.desktop-menu-drop > li > a {
+	padding: 20px 20px;
+}
+/*ul線上遊戲*/
+
+/*ul手機遊戲*/
+ul.drop-down-menu ul.tablet-menu-drop{
+	border: #444 1px solid;
+	width: 101%;
+	--display:block;
+	left: 100%;
+}
+
+ul.drop-down-menu ul.tablet-menu-drop > p{
+	border: #444 1px solid;
+	padding: 20px 10px;
+	margin: 0;
+	width: 75px;
+	color: #fff;
+	background-color: #1b1b1b;
+}
+
+ul.drop-down-menu ul.tablet-menu-drop > li > a {
+	padding:20px 20px;
+}
+/*ul手機遊戲*/
+/*第二層 (遊戲)*/
+/*header interface*/
+
+/*footer interface*/
+/*footer的ul*/
+ul.drop-down-menu2{
+	border: #ccc 0px solid;
+	--display: inline-block;
+	font-size: 14px;
+	margin-left: 7%;
+}
+
+ul.drop-down-menu2 li{
+	background-color: 1b1b1b;
+	box-sizing: border-box;
+}
+
+ul.drop-down-menu2 > li:last-child{
+	padding: 0;
+}
+
+ul.drop-down-menu2 a, .liSelect{
+	text-decoration: none;
+	color: #ccc;
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+ul.drop-down-menu2 a:hover{
+	color: #999;
+}
+/*footer的ul*/
+
+#footText{
+	margin-left: 12%;
+	line-height: 40px;
+	font-size: 10px;
+	text-align: center-left;
+	color: #ccc;
+}
+
+.language{
+	background-color: #1b1b1b;
+	color: #fff;
+	margin: auto 0;
+	margin-left: 10px;
+	height: 25px;
+	width: 200px;
+}
+
+/*footer interface*/
+
+/*propaganda*/
+.textbg{
+	position: absolute;
+	top: 275px;
+	left: 200px;
+}
+
+.propaganda{
+	position: absolute;
+	top: 350px;
+	left: 275px;
+	color: #fff;
+}
+
+.gameName{
+	font-size: 50px;
+	line-height: 0px;
+}
+
+.gamePropaganda{
+	margin-top: -10px;
+	font-size: 22px;
+	color: #aaa;
+}
+
+.gotoGame{
+	text-decoration: none;
+	padding: 5px 5px 5px 10px;
+	border:#B62D2D 1px solid;
+	background-color:#222;
+	font-size: 25px;
+	color: red;
+	font-size: lighter;
+	box-sizing: border-box;
+}
+
+div.propaganda a:hover{
+	background-color: #000;
+}
+/*propaganda*/
+
+
+
+
+
+
