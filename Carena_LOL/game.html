@@ -1,92 +1,147 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="game.css">
-    <title>Carena_LOL</title>
-    <head>
-        <div class="home_flex">
-            <a class ="logo" href="Carena.html" ><img src="img/Carena_burned.png" height="50px" width="120px"></a>
-            <div class="menu_position">
-                <a class ="computer_menu" href="#"><img src="img/computer.jpg" class="computer_menu_png" height="30px" width="30px" alt="">電腦版</a>
-                <a class ="phone_menu" href="#"><img src="img/phone.png" height="30px" width="30px" alt="">手機板</a>
-            </div>
-        </div>    
-    </head>
-    <body>
-        </div>
-        <div class="bg">
-            <div class="menu">
-                <div class="lol">
-                    <a href="game.html"><img src="img/lol-removebg-preview.png" alt="" width="245px" width="160px"></a>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="#">新聞</a>
-                            <div class="outmenu" style="margin: 0px -45px;">
-                                <ol>
-                                    <li><a href="#">資訊</a></li>
-                                    <li><a href="#">活動</a></li>
-                                    <li><a href="#">電競</a></li>
-                                    <li><a href="#">系統</a></li>
-                                </ol>
-                            </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>LOL</title>
+</head>
+<div class="header">
+    <div class="gmenu-container">
+        <div class="menu"> <a href="Carena.html" class="menu-logo"><img src="Img/Icon/Carena_Icon.png"></a>
+            <ul>
+                <li class="subarrow menu-icon"><a href="#">平台<span></span></a>
+                    <ul class="normal-sub">
+                        <li><a href="#"><span class="menudlicon01"></span>電腦版</a>
                         </li>
-                        <li><a href="#">遊戲內容</a>
-                            <div class="outmenu" style="margin: 0px -30px;">
-                                <ol>
-                                    <li><a href="#">新手入門</a></li>
-                                    <li><a href="#">英雄</a></li>
-                                    <li><a href="#">道具</a></li>
-                                </ol>
-                            </div>
-                        </li>
-                        <li><a href="#">聯盟社群</a>
-                            <div class="outmenu"  style="margin: 0px -28px;">
-                                <ol>
-                                    <li><a href="#">粉絲團</a></li>
-                                    <li><a href="#">Youtube</a></li>
-                                    <li><a href="#">Instagram</a></li>
-                                </ol>
-                            </div>
-                        </li>
-                        <li><a href="../Service/service.html">客服中心</a></li>
-                        <li><a href="../test/test.html">儲值中心</a></li>
-                        <li><a href="#">下載註冊</a></li>
+                        <li><a href="#"><span class="menudlicon02"></span>手機版</a> </li>
                     </ul>
-                </div>
-            </div> 
-            <div class="new_photo">
-                <a href="../test/test.html" class="photo" >儲值優惠歡樂送<br>35% 回饋不手軟！</a>
-                <img src="img/money.PNG" style="margin: 0px -788px" alt="">
-            </div>
-            <div class="new_photo">
-                <a href="#" class="photo">星河小夥伴<br>聯盟精靈！</a>
-                <img src="img/split.PNG" style="margin: 0px -788px" alt="">
-            </div>
-            <div class="cry_rock">
-                <a href="../test/test.html" class="rock_photo">想要炫砲的15投人嗎，那就趕緊儲值購買吧！！</a>
-                <img src="img/幽冥組合15投人.jpg" width="700px" height="400px" style="margin: 0px -680px"alt="">
-            </div>
+                </li>    
+                <li class="subarrow menu-icon"><a href="#">遊戲<span></span></a> 
+                    <ul class="normal-sub">
+                        <li><a class="menu-spec" href="#"><span class="menudlicon01"></span> 線上遊戲</a>
+                            <ul class="online-game">
+                                <li><a href="#"><span class="nav-menudlicon01"></span>英雄聯盟</a></li>
+                                <li><a href="#"><span class="nav-menudlicon01"></span>無限法則</a></li>
+                                <li><a href="#"><span class="nav-menudlicon01"></span>流亡黯道</a></li>
+                            </ul>
+                        </li>
+                        <li class="second-sub" style="min-height: 340px!important;"><a class="menu-spec" href="#"><span
+                            class="menudlicon02"></span>手機遊戲</a>
+                            <ul class="mobile-game">
+                                <li><a href="#"><span class="nav-menudlicon01"></span>傳說對決</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-    </body>
-   <footer>
-       <div class="footer">
-            <div class="r_logo">
-                <img src="img/riot logo.png" alt="" width = "100px" height="60px">
-            </div>
-            <div class="c_logo">
-                <img src="img/Logo.png" alt="" width="80px" height="60px">  
-            </div>
-            <div class="copyright">
-                <p>Copyright © 2020</p>
-            </div>
-            <div class="restricted">
-                <img src="img/15LOGO.png" alt="" width="50px" height="50px">
-            </div>
-            <div class="grade">
-                <p>本遊戲為免費使用，遊戲情節涉及暴力、菸酒畫面。<br>請注意遊戲時間，避免沉迷。</p>
-            </div>
-            <div class="fb_logo">
-                <a href="#"><img src="img/fb_logo.png" width="45px" height="45px" ></a>
-            </div>
+    </div>
+</div>
+<body>
+  <div class="bg">
+    <div class="menu">
+        <div class="nav"><a href="game.html" class="lol-logo"><img src="img/lol-removebg-preview.png" alt="" width="245px" width="160px"></a>
+            <ul>
+                <li><a href="#">新聞</a>
+                    <div class="outmenu" style="margin: 0px -25px;">
+                        <ol>
+                            <li><a href="#">資訊</a></li>
+                            <li><a href="#">活動</a></li>
+                            <li><a href="#">電競</a></li>
+                            <li><a href="#">系統</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li><a href="#">遊戲內容</a>
+                    <div class="outmenu2" style="margin: 0px -28px;">
+                        <ol>
+                            <li><a href="#">新手入門</a></li>
+                            <li><a href="#">英雄</a></li>
+                            <li><a href="#">道具</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li><a href="#">聯盟社群</a>
+                    <div class="outmenu3"  style="margin: 0px -28px;">
+                        <ol>
+                            <li><a href="#">粉絲團</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ol>
+                    </div>
+                </li>
+                <li><a href="../Service/service.html">客服中心</a></li>
+                <li><a href="../test/test.html">儲值中心</a></li>
+                <li><a href="#">下載註冊</a></li>
+            </ul>
+        </div>
+    </div> 
+    <div class="carousel slide" data-ride="carousel" id="carousel-demo">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo" data-slide-to="1"></li>
+        <li data-target="#carousel-demo" data-slide-to="2"></li>
+      </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="Img/box.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Img/shop2.jpg" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Img/nightmare.jpg" alt="">
+      </div>
+    
+      <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    
+  </div>
+  <div class="layout">
+      <div class="photo" >
+        <img src="Img/money.png" alt="">><a href="../test/test.html">儲值優惠歡樂送，35% 回饋不手軟！</a>
+      </div>
+      <div class="photo" >
+        <img src="Img/split.PNG" alt="">><a href="#">星河小夥伴，聯盟精靈強勢登場！！</a>
+      </div>
+      <div class="photo" >
+        <img src="Img/幽冥組合15投人.jpg" alt="">><a href="../test/test.html" ">尊爵幽冥煞星墨菲特，強勢登場！！</a>
+      </div>
+  </div>
+</div>
+
+    
+</body>
+<footer>
+  <div class="footer">
+       <div class="r_logo">
+           <img src="img/riot logo.png" alt="" width = "100px" height="60px">
        </div>
-   </footer>
+       <div class="c_logo">
+           <img src="img/Logo.png" alt="" width="80px" height="60px">  
+       </div>
+       <div class="copyright">
+           <p>Copyright © 2020</p>
+       </div>
+       <div class="restricted">
+           <img src="img/15LOGO.png" alt="" width="50px" height="50px">
+       </div>
+       <div class="grade">
+           <p>本遊戲為免費使用，遊戲情節涉及暴力、菸酒畫面。<br>請注意遊戲時間，避免沉迷。</p>
+       </div>
+       <div class="fb_logo">
+           <a href="#"><img src="img/fb_logo.png" width="45px" height="45px" ></a>
+       </div>
+  </div>
+</footer>
 </html>
