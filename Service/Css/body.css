@@ -111,7 +111,7 @@ body {
 .hd {
     height: 350px;
     border-top: 1px solid #B5B7B6;
-    background: url(../img/bg.png) 50% 100% no-repeat
+    background: url(../Img/bg.png) 50% 100% no-repeat
 }
 
 .hd-home {
@@ -173,19 +173,19 @@ body {
 }
 
 .hd-nav__link-faq {
-    background-image: url(../img/icostar.png)
+    background-image: url(../Img/icostar.png)
 }
 
 .hd-nav__link-record {
-    background-image: url(../img/icoclock.png)
+    background-image: url(../Img/icoclock.png)
 }
 
 .hd-nav__link-minfo {
-    background-image: url(../img/icopeople.png)
+    background-image: url(../Img/icopeople.png)
 }
 
 .hd-nav__link-account {
-    background-image: url(../img/icoaccount.png)
+    background-image: url(../Img/icoaccount.png)
 }
 
 .hd-search {
@@ -254,7 +254,7 @@ body {
     width: 38px;
     border: 0;
     height: 31px;
-    background: url(../img/searchbtn.png) #00A2E8
+    background: url(../Img/searchbtn.png) #00A2E8
 }
 
 .hd-login {
@@ -335,7 +335,7 @@ a.hd-loginBt:hover {
 .main-gamesup__title {
     width: 120px;
     height: 36px;
-    background: url(../img/gsup-title.png);
+    background: url(../Img/gsup-title.png);
     margin: 0 0 10px;
     text-indent: 100%;
     overflow: hidden;
@@ -371,35 +371,35 @@ a.hd-loginBt:hover {
 }
 
 .main-gamesup__list-aoa {
-    background: url(../img/icon/icon-aoa.png)
+    background: url(../Img/icon/icon-aoa.png)
 }
 
 .main-gamesup__list-lol {
-    background: url(../img/icon/icon-lol.png)
+    background: url(../Img/icon/icon-lol.png)
 }
 
 .main-gamesup__list-roe {
-    background: url(../img/icon/icon-roe.png)
+    background: url(../Img/icon/icon-roe.png)
 }
 
 .main-gamesup__list-poe {
-    background: url(../img/icon/icon-poe.png)
+    background: url(../Img/icon/icon-poe.png)
 }
 
 .main-gamesup__list-ff {
-    background: url(../img/icon/icon-ff2.png)
+    background: url(../Img/icon/icon-ff2.png)
 }
 
 .main-gamesup__list-spd {
-    background: url(../img/icon/icon-spd2.png)
+    background: url(../Img/icon/icon-spd2.png)
 }
 
 .main-gamesup__list-hdl {
-    background: url(../img/icon/icon-hdl2.png)
+    background: url(../Img/icon/icon-hdl2.png)
 }
 
 .main-gamesup__list-codm {
-    background: url(../img/icon/icon-codm.png)
+    background: url(../Img/icon/icon-codm.png)
 }
 
 .main-serentry {
@@ -409,7 +409,7 @@ a.hd-loginBt:hover {
 .main-serentry__title {
     width: 120px;
     height: 36px;
-    background: url(../img/service-title.png);
+    background: url(../Img/service-title.png);
     margin: 0 0 10px;
     text-indent: 100%;
     overflow: hidden;
@@ -445,23 +445,23 @@ a.hd-loginBt:hover {
 }
 
 .main-serentry__list-acc {
-    background: url(../img/member.png)
+    background: url(../Img/member.png)
 }
 
 .main-serentry__list-topup {
-    background: url(../img/sertopup.png)
+    background: url(../Img/sertopup.png)
 }
 
 .main-serentry__list-esports {
-    background: url(../img/seresports.png)
+    background: url(../Img/seresports.png)
 }
 
 .main-serentry__list-ban {
-    background: url(../img/ban.png)
+    background: url(../Img/ban.png)
 }
 
 .main-serentry__list-warning {
-    background: url(../img/warning.png)
+    background: url(../Img/warning.png)
 }
 
 .main-sertime {
@@ -513,7 +513,7 @@ a.hd-loginBt:hover {
 .main-serwarn__btn a {
     display: block;
     height: 48px;
-    background: url(../img/warnbtn-ov.png);
+    background: url(../Img/warnbtn-ov.png);
     color: #00A2E8;
     font: 22px/50px arial, 'Microsoft JhengHei', \5FAE\8EDF\6B63\9ED1\9AD4, PMingLiU, \65B0\7D30\660E\9AD4;
     padding: 0 0 0 49px
@@ -521,7 +521,7 @@ a.hd-loginBt:hover {
 
 .main-serwarn__btn a:hover {
     color: #fff;
-    background: url(../img/warnbtn.png);
+    background: url(../Img/warnbtn.png);
     text-decoration: none
 }
 
@@ -539,7 +539,7 @@ a.hd-loginBt:hover {
 .main-ensure__btn a {
     display: block;
     height: 48px;
-    background: url(../img/ensurebtn-ov.png);
+    background: url(../Img/ensurebtn-ov.png);
     color: #00A2E8;
     font: 22px/50px arial, 'Microsoft JhengHei', \5FAE\8EDF\6B63\9ED1\9AD4, PMingLiU, \65B0\7D30\660E\9AD4;
     padding: 0 0 0 49px;
@@ -547,7 +547,7 @@ a.hd-loginBt:hover {
 }
 
 .main-ensure__btn a:hover {
-    background: url(../img/ensurebtn.png);
+    background: url(../Img/ensurebtn.png);
     color: #fff;
     text-decoration: none
 }
@@ -564,7 +564,7 @@ a.hd-loginBt:hover {
 }
 
 .main-sercommon__list a {
-    background: url(../img/itemdot.png) 7px 50% no-repeat;
+    background: url(../Img/itemdot.png) 7px 50% no-repeat;
     padding: 0 0 0 22px;
     font-size: 15px;
     letter-spacing: 1px;
@@ -635,7 +635,7 @@ a.main-sernews__list-more:hover {
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap;
-    background: url(../img/hotqes-title.png);
+    background: url(../Img/hotqes-title.png);
     width: 182px;
     height: 36px;
     margin: 0 0 13px
@@ -670,7 +670,7 @@ a.main-sernews__list-more:hover {
     overflow: hidden;
     white-space: nowrap;
     display: block;
-    background: url(../img/itemdot.png) 7px 50% no-repeat;
+    background: url(../Img/itemdot.png) 7px 50% no-repeat;
     padding: 0 0 0 22px;
     color: #afafaf;
     font: 15px/1.6 arial, 'Microsoft JhengHei', \5FAE\8EDF\6B63\9ED1\9AD4, PMingLiU, \65B0\7D30\660E\9AD4;

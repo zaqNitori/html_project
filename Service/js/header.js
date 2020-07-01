@@ -25,7 +25,7 @@ $(document).ready(function () {
     $('.ga_menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
 
 
-    $(".ga_menu > .mb_container").before('<div class=\"menu-mobile\"><a href=\"../Carena_LOL/Carena.html\"><img src=\"img/Icon/Carena_Icon.png\" class=\"gamobile_logo\"></a><div class=\"burgericon\" id=\"nav-icon4\"><span></span><span></span><span></span></div></div>');
+    $(".ga_menu > .mb_container").before('<div class=\"menu-mobile\"><a href=\"../Carena_LOL/Carena.html\"><img src=\"Img/Icon/Carena_Icon.png\" class=\"gamobile_logo\"></a><div class=\"burgericon\" id=\"nav-icon4\"><span></span><span></span><span></span></div></div>');
 
     $(".menu-mobile > .burgericon").click(function (e) {
 

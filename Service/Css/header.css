@@ -79,7 +79,7 @@ body {
 }
 
 .ga_menu>ul .subarrow span {
-    background-image: url("../img/submenuarrow.png");
+    background-image: url("../Img/submenuarrow.png");
     background-repeat: no-repeat;
     background-position: 8px 6px;
     -moz-background-size: 17px 12px;
@@ -309,7 +309,7 @@ body {
 }
 
 .ga_menu>ul>li a .menudlicon01 {
-    background-image: url("../img/menupc.png");
+    background-image: url("../Img/menupc.png");
     background-repeat: no-repeat;
     background-position: -3px 1px;
     -moz-background-size: 24px 17px;
@@ -322,7 +322,7 @@ body {
 }
 
 .ga_menu>ul>li a .menudlicon02 {
-    background-image: url("../img/menuphone.png");
+    background-image: url("../Img/menuphone.png");
     background-repeat: no-repeat;
     background-position: -5px 1px;
     -moz-background-size: 28px 20px;
@@ -426,7 +426,7 @@ body {
     }
 
     .ga_menu>ul>.menu-dropdown-icon>a {
-        background-image: url("../img/arrowbtm.png");
+        background-image: url("../Img/arrowbtm.png");
         background-repeat: no-repeat;
         background-position: 95% center;
         -moz-background-size: 15px 10px;
@@ -678,47 +678,47 @@ body {
     .mb_default {}
 
     .mb_pmobile {
-        background-image: url(../img/Icon/icon-pmobile.png);
+        background-image: url(../Img/Icon/icon-pmobile.png);
     }
 
     .mb_ppc {
-        background-image: url(../img/Icon/icon-ppc.png);
+        background-image: url(../Img/Icon/icon-ppc.png);
     }
 
     .mb_joinus {
-        background-image: url(../img/Icon/icon-joinus.png);
+        background-image: url(../Img/Icon/icon-joinus.png);
     }
 
     .mb_aoa {
-        background-image: url(../img/Icon/icon-aoa.png);
+        background-image: url(../Img/Icon/icon-aoa.png);
     }
 
     .mb_spd {
-        background-image: url(../img/Icon/icon-spd.png);
+        background-image: url(../Img/Icon/icon-spd.png);
     }
 
     .mb_lol {
-        background-image: url(../img/Icon/icon-lol.png);
+        background-image: url(../Img/Icon/icon-lol.png);
     }
 
     .mb_ff {
-        background-image: url(../img/Icon/icon-ff.png);
+        background-image: url(../Img/Icon/icon-ff.png);
     }
 
     .mb_CODM {
-        background-image: url(../img/Icon/TC_circle.png);
+        background-image: url(../Img/Icon/TC_circle.png);
     }
 
     .mb_roe {
-        background-image: url(../img/Icon/icon-roe2.png);
+        background-image: url(../Img/Icon/icon-roe2.png);
     }
 
     .mb_poe {
-        background-image: url(../img/Icon/icon-poe2.png);
+        background-image: url(../Img/Icon/icon-poe2.png);
     }
 
     .mb_contra {
-        background-image: url(../img/Icon/icon-hdl.png);
+        background-image: url(../Img/Icon/icon-hdl.png);
     }
 
     /* Icon 4 */
@@ -1202,12 +1202,12 @@ ul.tabs li.tab1-title {
 	border-right: 1px solid #5e5d5d;
 	padding-right: 18px;
 	padding: 0 18px 0 45px;
-	background: url(../img/tab1-title-bg.png) no-repeat;
+	background: url(../Img/tab1-title-bg.png) no-repeat;
 	background-position-y: -31px;
 }
 
 ul.tabs li.tab1-title:hover {
-	background: url(../img/tab1-title-bg.png) no-repeat;
+	background: url(../Img/tab1-title-bg.png) no-repeat;
 	background-position-y: 0px;
 }
 
@@ -1218,12 +1218,12 @@ ul.tabs li.tab1-title.active {
 ul.tabs li.tab2-title {
 	padding: 0 0 0 38px;
 	margin-left: 7px;
-	background: url(../img/tab2-title-bg.png) no-repeat;
+	background: url(../Img/tab2-title-bg.png) no-repeat;
 	background-position-y: -31px;
 }
 
 ul.tabs li.tab2-title:hover {
-	background: url(../img/tab2-title-bg.png) no-repeat;
+	background: url(../Img/tab2-title-bg.png) no-repeat;
 	background-position-y: 0px;
 }
 
