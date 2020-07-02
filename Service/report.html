@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
     <meta charset="UTF-8">
     <title>Carena 客服中心</title>
@@ -11,6 +12,30 @@
     <script src='js/jquery.min.js'></script>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src='js/header.js'></script>
+    <!-- ------------------------------ -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAOFdqHrfe5vnX1YhccxCR019hzVMiipT0",
+            authDomain: "web-dev-108.firebaseapp.com",
+            databaseURL: "https://web-dev-108.firebaseio.com",
+            projectId: "web-dev-108",
+            storageBucket: "web-dev-108.appspot.com",
+            messagingSenderId: "886124288265",
+            appId: "1:886124288265:web:070134d447f5f00b095bd8",
+            measurementId: "G-YWEPQL55DG"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </head>
 <!-- -------------------------------------------------------------- -->
 
@@ -95,7 +120,7 @@
                         <li><a href='#'><span class='menudlicon02'></span>
                                 手機版</a>
                     </ul>
-                <li class='subarrow'><a target='_blank' href='javascript::void(0)'>遊戲<span></span></a>
+                <li class='subarrow'><a href='javascript::void(0)'>遊戲<span></span></a>
                     <ul>
                         <li><a class='menu-spec' href='javascript::void(0)'><span class='menudlicon01'></span> 線上遊戲</a>
                             <ul>
@@ -114,9 +139,9 @@
                             </ul>
                     </ul>
                 <li><a href='#'>客服中心</a>
-                <li class='sbmleft pc_show menu-dropdown-icon'><a
+                <li class='sbmleft pc_show menu-dropdown-icon'><a 
                         href="../test/test.html">儲值中心<span></span></a>
-                <li class='phone_show'><a href='#'>加入我們</a>
+                <li class='phone_show'><a href='#' >加入我們</a>
             </ul>
         </div>
     </div>
@@ -131,11 +156,9 @@
                 <div class="hd-panel">
                     <div class="hd-nav">
                         <a href="#" class="hd-nav__link hd-nav__link-faq">常見FAQ</a>
-                        <a href="#"
-                            class="hd-nav__link hd-nav__link-record">回報紀錄</a>
+                        <a href="#" class="hd-nav__link hd-nav__link-record">回報紀錄</a>
                         <a href="#" class="hd-nav__link hd-nav__link-minfo">會員資料</a>
-                        <a href="#" target="_blank"
-                            class="hd-nav__link hd-nav__link-account">帳戶中心</a>
+                        <a href="#" class="hd-nav__link hd-nav__link-account">帳戶中心</a>
                     </div>
                     <div class="hd-search">
                         <h2 class="hd-search__title">快速搜尋</h2>
@@ -160,148 +183,58 @@
         </div>
 
 
-        <div class="main-layout1-wrap">
-            <div class="main-layout1">
-                <div class="main-layout1-l">
-                    <div class="main-gamesup">
-                        <h2 class="main-serentry__title">會員服務</h2>
-                        <ul class="main-gamesup__list">
-                            <li class="main-category" id="5"><a href="report.html"
-                                    class="main-serentry__list-acc"></a></li>
-                            <li class="main-category" id="7"><a href="../test/test.html"
-                                    class="main-serentry__list-topup"></a></li>
-                            <li class="main-category" id="10"><a
-                                    href="#"
-                                    class="main-serentry__list-esports"></a></li>
-                            <li class="main-category" id="9"><a href="report.html"
-                                    class="main-serentry__list-warning"></a></li>
-                            <li class="main-category" id="11"><a
-                                    href="report.html"
-                                    class="main-serentry__list-ban"></a></li>
-                        </ul>
-                    </div>
-                    <div id="tab_container">
-                        <ul class="tabs">
-                            <li class="tab1-title"><a href="#tab1">線上遊戲</a></li>
-                            <li class="tab2-title"><a href="#tab2">手機遊戲</a></li>
-                        </ul>
-                        <div class="tab_container">
-                            <div id="tab1" class="tab_content" style="display: block;">
-                                <ul class="main-serentry__list">
-                                    <span id="desktop_icon">
-                                        <li class="big-category" id="32"><a
-                                                href="#"
-                                                class="main-gamesup__list-roe"></a></li>
-                                        <li class="big-category" id="82"><a
-                                                href="../Carena_LOL/game.html"
-                                                class="main-gamesup__list-lol"></a></li>
-                                        <li class="big-category" id="115"><a
-                                                href="#"
-                                                class="main-gamesup__list-poe"></a></li>
-                                    </span>
-                                </ul>
-                            </div>
-                            <div id="tab2" class="tab_content" style="display: none;">
-                                <ul class="main-serentry__list">
-                                    <span id="mobile_icon">
-                                        <li class="big-category" id="40"><a
-                                                href="#"
-                                                class="main-gamesup__list-codm"></a></li>
-                                        <li class="big-category" id="39"><a
-                                                href="#"
-                                                class="main-gamesup__list-spd"></a></li>
-                                        <li class="big-category" id="30"><a
-                                                href="#"
-                                                class="main-gamesup__list-hdl"></a></li>
-                                        <li class="big-category" id="31"><a
-                                                href="#"
-                                                class="main-gamesup__list-ff"></a></li>
-                                        <li class="big-category" id="148"><a
-                                                href="#"
-                                                class="main-gamesup__list-aoa"></a></li>
-                                    </span>
-                                </ul>
-                            </div>
+        <div class="ip">
+            <div class="ip-bdbox-w">
+                <div class="ip-bdbox">
+                    <div class="ip-report">
+                        <div class="ip-report__title">
+                            填寫回報單
                         </div>
-                    </div>
-                </div>
-                <div class="main-layout1-r">
-                    <div class="main-sertime">
-                        <div class="main-sertime__content">
-                            <h2 class="main-sertime__title">服務時間</h2>09:00~18:00
-                        </div>
-                    </div>
-                    <div class="main-serwarn">
-                        <div class="main-serwarn__btn">
-                            <a href="#">帳號無法登入</a>
-                        </div>
-                    </div>
-                    <div class="main-ensure">
-                        <div class="main-ensure__btn">
-                            <a href="#">帳號安全認證</a>
-                        </div>
-                    </div>
-                    <div class="main-sercommon">
-                        <h2 class="main-sercommon__title">常用服務</h2>
-                        <ul class="main-sercommon__list">
-                            <li><a href="#">合約與規範</a></li>
-                            <li><a href="#">各類申請表下載</a></li>
-                        </ul>
-                    </div>
-                    <div class="main-sernews">
-                        <h2 class="main-sernews__title">最新消息</h2>
-                        <ul class="main-sernews__list">
-                            <li><a href="#">提高警覺，小心防範詐騙宣導</a></li>
-                            <li><a href="">賀！Carena 榮獲佛心公司稱號</a></li>
-                            <li><a href="">英雄聯盟喝勝</a></li>
-                            <li><a href="">哇！佛心公司！佛心公司！</a></li>
-                            <li><a href="" class="main-sernews__list-more">更多消息</a></li>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main-layout2-wrap">
-            <div class="main-layout2">
-                <div class="main-pqueries">
-                    <h2 class="main-pqueries__title">玩家熱門詢問</h2>
-                    <div class="main-pqueries__content">
-                        <div class="main-pqueries__list">
-                            <h3 class="main-pqueries__list-title">帳號相關疑問</h3>
-                            <ul class="main-pqueries__list-content">
-                                <li><a href="#">帳號被盜了，怎麼辦？</a></li>
-                                <li><a href="#">密碼忘記了，怎麼辦？</a></li>
-                                <li><a href="#">收不到密碼重置信</a></li>
-                                <li><a href="#">設定新密碼時被要求輸入簡訊驗證碼，但是沒收到簡訊</a></li>
-                                <li><a href="#">密碼設定完畢後資料無法送出，停留在原畫面</a></li>
-                            </ul>
-                        </div>
-                        <div class="main-pqueries__list">
-                            <h3 class="main-pqueries__list-title">技術問題支援</h3>
-                            <ul class="main-pqueries__list-content">
-                                <li><a href="#">登入時顯示請求超時，請稍候再試</a></li>
-                                <li><a href="#">介面突然變英文，顯示Connection Error</a></li>
-                                <li><a href="#">收到禮物，要怎麼使用？</a></li>
-                                <li><a href="#">為什麼我下載後，出現檔案無法啟動的訊息？</a></li>
-                                <li><a href="#">等級無法提升！我應該怎麼辦呢？</a></li>
-                            </ul>
-                        </div>
-                        <div class="main-pqueries__list">
-                            <h3 class="main-pqueries__list-title">遊戲常見問題</h3>
-                            <ul class="main-pqueries__list-content">
-                                <li><a href="#">基本電腦配備需求是甚麼呢？</a></li>
-                                <li><a href="#">要如何調整畫質？</a></li>
-                                <li><a href="#">要如何調整自定義介面？</a></li>
-                                <li><a href="#">為什麼我遊戲結束後沒有得到獎賞？</a></li>
-                                <li><a href="#">請問如何儲值呢？</a></li>
-                            </ul>
+                        <div class="ip-report__form">
+                            <form id="report-create-form" >
+                                <input type="hidden" name="_token">
+                                <input type="hidden" name="main_category" value="5">
+                                <div class="ip-report__form-row">
+                                    <label for="cat" class="ip-report__form-coll">類別</label>
+                                    <div class="ip-report__form-colr">
+                                        <div class="ip-report__form-select">
+                                            <select id="big-category" name="big_category">
+                                                <option value="0">請選擇類別</option>
+                                                <option value="186">信箱認證詢問</option>
+                                                <option value="187">手機認證詢問</option>
+                                                <option value="79">登入時顯示帳號或密碼不正確</option>
+                                                <option value="78">更改會員資料</option>
+                                                <option value="71">其他服務申請</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="question-list">
+                                </div>
+                                <div class="ip-report__form-row">
+                                    <label for="des" class="ip-report__form-coll">狀況敘述</label>
+                                    <div class="ip-report__form-colr">
+                                        <div class="ip-report__form-textarea">
+                                            <textarea id="report-create-content" name="content"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ip-report__form-panel">
+                                    <div class="ip-report__form-reset" id = "reset">
+                                        <input type="reset" value="重新選取">
+                                    </div>
+                                    <div class="ip-report__form-submit" id = "submit">
+                                        <input type="submit" value="送出表單">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- ----------------------------------------------------------------------------------------- -->
     <div class='ga_footer'>
         <div class='fullc'>
@@ -309,7 +242,7 @@
                 <ul>
                     <li class='firstbox'><a href="#">公司介紹</a>
                     <li class='firstbox'><a href="#">加入我們</a>
-                    <li><a href="#" >服務條款</a>
+                    <li><a href="#">服務條款</a>
                     <li style='border-right:0;'><a href="#"
                            >隱私條款</a>
                     <li class='lastbox'><select class='regionbox'
